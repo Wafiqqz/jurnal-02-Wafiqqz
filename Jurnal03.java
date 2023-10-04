@@ -14,7 +14,7 @@ public class Jurnal03 {
 
 	boolean kelulusan = nilaiAkhir >= 75;
 
-	System.out.println("Lulus MK: "+nilaiAkhir);
+	System.out.println("Lulus MK: "+ kelulusan);
 
 	}
 }
