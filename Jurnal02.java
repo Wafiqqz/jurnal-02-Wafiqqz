@@ -10,14 +10,7 @@ public class Jurnal02 {
 
 	boolean hasil = sP <= pPP & sP <= lPP;
 
-	String hasilfix;
-	if (hasil == true){
-		hasilfix = "True";
-	}else {
-		hasilfix = "False";
-	}
-	System.out.println("Kotak dapat masuk ke dalam Persegi Panjang? "+hasilfix);
-
+	System.out.println("Kotak dapat masuk ke dalam Persegi Panjang? "+hasil);
 
 	}
 }

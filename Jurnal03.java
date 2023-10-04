@@ -14,14 +14,7 @@ public class Jurnal03 {
 
 	boolean kelulusan = nilaiAkhir >= 75;
 
-	String nilaiAkhirfix;
-	if (kelulusan == true){
-		nilaiAkhirfix = "True";
-	}else {
-		nilaiAkhirfix = "False";
-	}
-
-	System.out.println("Lulus MK: "+nilaiAkhirfix);
+	System.out.println("Lulus MK: "+nilaiAkhir);
 
 	}
 }
