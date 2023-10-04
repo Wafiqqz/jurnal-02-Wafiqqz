@@ -1,6 +1,27 @@
+import java.util.Scanner;
 public class Jurnal03 {
 
 	public static void main(final String[] args) {
-		// Kerjakan soalnya di sini
+	Scanner lea = new Scanner(System.in);
+
+	int nP = lea.nextInt();
+	int aS = lea.nextInt();
+	int aD = lea.nextInt();
+
+	double nilaiAkhir = (0.25 * nP) + (0.35 * aS) + (0.40 * aD);
+
+	System.out.println(nilaiAkhir);
+
+	boolean kelulusan = nilaiAkhir >= 75;
+
+	String nilaiAkhirfix;
+	if (kelulusan == true){
+		nilaiAkhirfix = "True";
+	}else {
+		nilaiAkhirfix = "False";
+	}
+
+	System.out.println("Lulus MK: "+nilaiAkhirfix);
+
 	}
 }
